@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - RydX: Garage & Rides</title>
+  <style>
+    :root {
+      --bg: #0B0F19;
+      --card-bg: #111827;
+      --border: #1F2937;
+      --text: #F3F4F6;
+      --text-muted: #9CA3AF;
+      --accent: #3B82F6;
+      --accent-glow: rgba(59, 130, 246, 0.15);
+      --green: #10B981;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 24px 16px 80px;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      margin-bottom: 32px;
+      background: linear-gradient(180deg, rgba(30, 41, 59, 0.6) 0%, rgba(11, 15, 25, 0) 100%);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      background: var(--accent-glow);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 800;
+      color: #FFFFFF;
+      margin-bottom: 12px;
+    }
+    .meta {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+    .meta span {
+      margin: 0 8px;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #60A5FA;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+    }
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #E2E8F0;
+      margin: 20px 0 10px;
+    }
+    p {
+      margin-bottom: 14px;
+      color: #D1D5DB;
+    }
+    ul {
+      margin-left: 24px;
+      margin-bottom: 16px;
+    }
+    li {
+      margin-bottom: 8px;
+      color: #D1D5DB;
+    }
+    strong {
+      color: #FFFFFF;
+    }
+    .highlight-box {
+      background: rgba(59, 130, 246, 0.08);
+      border-left: 4px solid var(--accent);
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+    }
+    .contact-card {
+      background: linear-gradient(135deg, rgba(37, 99, 235, 0.15) 0%, rgba(15, 23, 42, 0.8) 100%);
+      border: 1px solid #2563EB;
+      text-align: center;
+      padding: 32px 20px;
+      border-radius: 12px;
+    }
+    .contact-card a {
+      color: #60A5FA;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .contact-card a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding-top: 40px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">Official Application Policy</div>
+      <h1>Privacy Policy for RydX</h1>
+      <p class="meta">
+        <strong>Application:</strong> RydX: Garage & Rides
+        <span>•</span>
+        <strong>Last Updated:</strong> November 8, 2026
+        <span>•</span>
+        <strong>Developer:</strong> Avinash Lohakare
+      </p>
+    </header>
+
+    <div class="card">
+      <h2>1. Introduction</h2>
+      <p>
+        At <strong>RydX</strong> ("we", "our", or "the Application"), built and maintained by <strong>Avinash Lohakare</strong>, we respect your privacy and are committed to protecting the personal and operational data you entrust to us.
+      </p>
+      <p>
+        This Privacy Policy explains how we collect, store, utilize, and protect your information when using the RydX mobile application on Android and iOS devices. RydX is designed specifically for licensed motorists, motorcycle riders, car owners, and road-tripping enthusiasts to manage vehicles, log fuel economy, track maintenance schedules, and coordinate group rides.
+      </p>
+      <p>
+        By downloading, registering, or using RydX, you consent to the practices described in this Privacy Policy.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>2. Information We Collect</h2>
+
+      <h3>A. Personal Account Information</h3>
+      <ul>
+        <li><strong>Profile Data:</strong> Name, email address (used for secure login and account recovery via Supabase Authentication), optional contact phone number, and optional profile picture.</li>
+        <li><strong>Authentication:</strong> Secure authentication tokens. We do not store raw passwords in plain text.</li>
+      </ul>
+
+      <h3>B. Vehicle & Garage Telemetry</h3>
+      <ul>
+        <li><strong>Vehicle Profiles:</strong> Make, model, manufacturing year, color, registration number, VIN (Vehicle Identification Number), engine number, and initial odometer readings.</li>
+        <li><strong>Document Expiry Records:</strong> Expiration dates and countdowns for Vehicle Registration Certificates (RC), Insurance policies, Pollution Under Control (PUC) certificates, and Driving Licenses.</li>
+        <li><strong>Maintenance & Spares Logs:</strong> Service dates, odometer at service, service center details, cost of repairs, and itemized spare parts replaced.</li>
+        <li><strong>Fuel & Efficiency Records:</strong> Fuel volume, fuel cost, odometer readings, and calculated fuel efficiency (KM/L).</li>
+        <li><strong>Personal Finance Tracking:</strong> Loan tenures, down payments, interest rates, and monthly EMI records. <em>Note: RydX is an expense management tracker; we do not collect, process, or store credit card numbers, debit card numbers, or online banking credentials.</em></li>
+      </ul>
+
+      <h3>C. Location Information (GPS)</h3>
+      <div class="highlight-box">
+        <p><strong>Foreground Location:</strong> RydX accesses your device's precise and approximate GPS coordinates while the app is active in the foreground to measure ride speed, record journey distance, display route telemetry, and calculate accurate fuel economy.</p>
+        <p><strong>Background Location:</strong> RydX requests background location access <em>solely and exclusively</em> when you voluntarily activate an ongoing <strong>Live Convoy / Group Tour</strong> session. This allows your fellow convoy members to view your relative position on the live tour map and ensures the Safety SOS beacon functions even when your device screen is locked. You can pause or permanently end location broadcasting at any time with a single tap in the Active Ride HUD.</p>
+      </div>
+
+      <h3>D. Camera and Media Storage Permissions</h3>
+      <ul>
+        <li><strong>Camera Access:</strong> To photograph fuel receipts, service bills, and vehicle documents.</li>
+        <li><strong>Photo Library Access:</strong> To upload photos of your vehicle, invoices, and shared group road-trip albums. Photos are only accessed when explicitly selected by you.</li>
+      </ul>
+
+      <h3>E. Notifications</h3>
+      <ul>
+        <li>Push and local device notifications are utilized solely for user-requested alerts: upcoming vehicle insurance expiration, PUC renewal deadlines, scheduled service milestones, and EMI due dates.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>3. How We Use Your Information</h2>
+      <p>The information collected is used exclusively for functional purposes inside RydX:</p>
+      <ul>
+        <li>To compute automated fuel efficiency (KM/L) and cost-per-kilometer analytics.</li>
+        <li>To alert you in advance of critical regulatory and financial deadlines (Insurance, PUC, EMI, Service).</li>
+        <li>To provide real-time location mapping and proximity warnings between convoy members on group tours.</li>
+        <li>To calculate shared expenses and automated debt settlements ("who owes whom") on group road trips.</li>
+        <li>To dispatch emergency SOS alerts to your designated emergency contacts when triggered by you.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>4. Data Security & Storage</h2>
+      <ul>
+        <li><strong>Database Security:</strong> All user records are hosted on PostgreSQL cloud infrastructure equipped with strict <strong>Row Level Security (RLS)</strong> policies. Your vehicle documents and private finances can only be decrypted and viewed by your authenticated account.</li>
+        <li><strong>Encrypted Transmission:</strong> All data exchanged between the RydX application and our servers is encrypted in transit using industry-standard TLS 1.3 (HTTPS).</li>
+        <li><strong>No Selling of Personal Data:</strong> We do not sell, rent, lease, or monetize your personal information, vehicle registration data, or location logs to third-party data brokers, insurers, or marketing companies.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>5. Third-Party Integrations</h2>
+      <p>RydX integrates with trusted infrastructure providers strictly to deliver core app functions:</p>
+      <ul>
+        <li><strong>Supabase:</strong> For user authentication, cloud database hosting, and secure file storage under Row Level Security.</li>
+        <li><strong>Google Play Services:</strong> For application delivery, automatic security updates, and in-app updates.</li>
+        <li><strong>OpenStreetMap / Mapping APIs:</strong> To render road-trip routes and group tour waypoints.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>6. Data Retention and Account Deletion</h2>
+      <p>You have full ownership and control over your personal data:</p>
+      <ul>
+        <li><strong>In-App Deletion:</strong> You can delete your entire account and all associated vehicles, documents, expenses, and ride history directly within the RydX application by navigating to <em>Profile &gt; Settings &gt; Delete Account</em>.</li>
+        <li><strong>Email Request:</strong> You can also request complete account deletion at any time by emailing our developer contact at <a href="mailto:avilohakare99@gmail.com" style="color: #60A5FA;">avilohakare99@gmail.com</a> with the subject line <em>"Account Deletion Request"</em>.</li>
+        <li>Upon receiving a deletion request, all personal data, vehicle records, documents, and location history are permanently and irrevocably purged from active databases within 30 days.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>7. Children's Privacy</h2>
+      <p>
+        RydX does not knowingly collect or solicit personal information from anyone under the age of 13. The application is designed for licensed vehicle owners and adults aged 18 and older. If we discover that personal data from a child under 13 has been collected, we will take immediate steps to delete that information.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>8. Changes to This Privacy Policy</h2>
+      <p>
+        We may update our Privacy Policy periodically to reflect app updates, legal obligations, or Google Play policy requirements. Any modifications will be posted directly to this URL with an updated "Last Updated" date. Continued use of RydX after updates constitutes acceptance of the revised policy.
+      </p>
+    </div>
+
+    <div class="contact-card">
+      <h2 style="border: none; justify-content: center; color: #FFFFFF; margin-bottom: 8px;">Contact Us</h2>
+      <p>If you have any questions, inquiries, or privacy-related requests regarding RydX, please contact the developer directly:</p>
+      <p style="font-size: 1.1rem; margin-top: 12px;">
+        <strong>Developer:</strong> Avinash Lohakare<br>
+        <strong>Email:</strong> <a href="mailto:avilohakare99@gmail.com">avilohakare99@gmail.com</a><br>
+        <strong>Application:</strong> RydX: Garage & Rides
+      </p>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Avinash Lohakare. All rights reserved.</p>
+      <p style="margin-top: 6px;">RydX is an independent automotive and motorcycle management platform.</p>
+    </footer>
+  </div>
+</body>
+</html>
